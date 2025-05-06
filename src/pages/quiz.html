@@ -3,25 +3,19 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="src/css/style.css" />
-        <title>Projeto</title>
+        <link rel="stylesheet" href="../css/style.css" />
+        <title>Quiz</title>
     </head>
     <body>
-        <!-- Div de apresentação -->
-        <div id="inicio">
-            <h1 id="titulo">Bem-Vindo ao site</h1>
-            <p id="texto">Com grandes códigos vem grandes bugs</p>
-            <img src="./src/assets/logo.gif" alt="Imagem" class="inicio" />
-        </div>
         <!-- Cabeçalho da página -->
         <header>
             <img src="" alt="Logo" id="logo" />
             <nav>
                 <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./src/pages/sobre.html">Sobre</a></li>
-                    <li><a href="./src/pages/quiz.html">Quiz</a></li>
-                    <li><a href="./src/pages/contato.html">Contato</a></li>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="./sobre.html">Sobre</a></li>
+                    <li><a href="./quiz.html">Quiz</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
                 </ul>
             </nav>
             <div>
@@ -31,11 +25,15 @@
             </div>
         </header>
 
+        <main>
+            <div class="resultado">
+                <div id="msg"></div>
+            </div>
+        </main>
+
         <!-- Rodapé da Página -->
         <footer>
             <p>&copy; 2025 - Todos os direitos reservados</p>
         </footer>
-        <!-- Chamando Java Script Externo -->
-        <script src="./src/js/script.js"></script>
     </body>
 </html>

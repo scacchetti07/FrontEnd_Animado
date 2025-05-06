@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: "Oswald", "sans-serif";
+}
+
+#inicio {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+/* -webkit: É um propriedade do css que utilizamos para dar efeito em alguns elementos especificos. no exemplo abaixo iremos dar um gradiente para a fonte. */
+#titulo {
+    background-image: linear-gradient(to right, white, red);
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: efeito 1s ease-in-out;
+}
+
+/* Efeitos e animações de elementos de um site. Muito utilizado para jogos */
+@keyframes efeito {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#texto {
+    font-size: 1.5rem;
+    animation: efeito 1s ease-in-out;
+}
+
+.inicio {
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+    border-radius: 50%;
+}
