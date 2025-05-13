@@ -109,7 +109,7 @@ header #logo {
 }
 
 .contato {
-    background-image: linear-gradient(#ff4230, #000);
+    background-image: linear-gradient(#ff4230, lightgray);
     width: 500px;
     height: 600px;
     border-radius: 20px;
@@ -169,6 +169,17 @@ header #logo {
     box-shadow: 10px 10px 10px whitesmoke;
 }
 
+small {
+    position: absolute;
+    margin-top: 5px;
+    visibility: hidden;
+}
+.control i,
+small {
+    position: absolute;
+    margin-top: 5px;
+    visibility: hidden;
+}
 footer {
     margin-top: 70dvh;
     display: flex;
